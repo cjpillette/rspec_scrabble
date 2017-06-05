@@ -72,7 +72,7 @@ describe Game do
     end
 
     context "given the word CAT and word counts for triple" do
-      it 'expects to return 10' do
+      it 'expects to return 15' do
         game = Game.new('CAT', '3X')
         expect(game.word_scores_special('CAT')).to eq(15)
       end
